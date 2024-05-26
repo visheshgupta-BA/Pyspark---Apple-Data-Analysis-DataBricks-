@@ -5,7 +5,7 @@
 This project demonstrates how to build ETL (Extract, Transform, Load) pipelines using PySpark on Databricks. It includes data ingestion from various sources (CSV, Parquet, Delta Table), uses the Factory Pattern for flexible reader creation, and implements business logic through the PySpark DataFrame API and Spark SQL. The processed data is then stored in both a Data Lake and a Data Lakehouse for further analysis. The project also addresses common PySpark issues such as broadcast joins, partitioning and bucketing, window functions (LAG, LEAD), and Delta tables.
 
 ### Architecture Diagram
-![Architecture Diagram](Architecture.png)
+![Architecture Diagram](https://github.com/visheshgupta-BA/Pyspark---Apple-Data-Analysis-DataBricks-/blob/main/Image/Workflow_Process.png)
 
 ### Key Concepts and Techniques
 - ETL Pipelines with PySpark
